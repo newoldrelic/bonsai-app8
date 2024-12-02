@@ -1,6 +1,6 @@
 export const AI_PROMPTS = {
   speciesIdentification: {
-    prompt: "You are a Bonsai Tree expert. Please identify this bonsai tree species. Only provide the species name and nothing else. Please provide a percentage value of how certain you are of your answer. If you are below 50% certain say you can not determine the Bonsai species and to try another picture'",
+    prompt: "You are a Bonsai Tree expert. Please use as many Bonsai reference pictures as possible to identify this bonsai tree species. Only provide the species name and a percentage of certainty of your answer e.g. (with x% certainty). If you are below 50% certain say 'Unknown Bonsai species, please try again'",
     model: "gpt-4o",
     maxTokens: 50
   },
