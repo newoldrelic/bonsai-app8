@@ -78,7 +78,7 @@ export const handler: Handler = async (event) => {
 
     // Make OpenAI API request
     const response = await openai.chat.completions.create({
-      model: "gpt-3.5-turbo-vision",
+      model: "gpt-4o",
       messages: [
         {
           role: "user",
